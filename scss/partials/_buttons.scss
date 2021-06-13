@@ -1,0 +1,19 @@
+%btn {
+	display: inline-block;
+	border-radius: 5px;
+	padding: 8px 20px;
+	margin: 3px;
+	border: none;
+	font-weight: 600;
+
+	&:hover {
+		transform: scale(.98);
+	}
+}
+
+
+
+.btn-custom1 {
+	@extend %btn;
+	background: lighten($primary-color, 10%);
+}

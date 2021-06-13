@@ -1,0 +1,372 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+body{
+	font-size: 16px;
+	font-family: Proxima Nova;
+	color: #ffffff;
+	background-color: #f4f4f4;
+}
+
+.mainhead{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+header .mainhead > *{
+	flex: 1;
+}
+header .mainlogo{
+	display: flex;
+	margin-right: 120px;
+}
+header .logo{
+	display: flex;
+}
+header nav ul{
+	    list-style: none;
+}
+header nav ul li{
+	display: inline;
+	margin-right: 25px;
+}
+.westa{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.phone{
+	margin-left: 66px;
+    margin-top: 16px;
+}
+
+.signing{
+	display: flex;
+	margin-left: -3px;
+}
+.searchlogo{
+	margin-right: 20px;
+	margin-top: 3px;
+}
+.signin{
+	margin-right: 20px;
+	padding: 9px 23px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    font-size: 9px;
+    background: rgb(0,0,0,0.4);
+    color: #ffffff;
+}
+.signup{
+	padding: 9px 23px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    font-size: 9px;
+    background-color: #4fd77f;
+    color: #ffffff;
+l}
+.background{
+	background:url('img/background1.jpg') no-repeat 0 -30px;
+	min-height:740px;
+	background-size: cover;
+}
+.darkoverlay{
+	min-height: 740px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	background: rgb(0,0,0,0.3);
+}
+
+.welcome{
+	position: relative;
+	margin-top: 204px;
+    margin-left: 111px;
+}
+.firstp{
+	font-size: 57px;
+	margin-bottom: 30px;
+}
+.secondp{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.learn{
+	padding: 9px 23px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    font-size: 9px;
+    background-color: #8dde4e;
+    color: #ffffff;
+}
+.lights{
+	color: #8dde4e;
+}
+.lights2{
+	color: #4fd77f;
+}
+#showcase{
+	min-height: 680px;
+}
+.showcase2{
+	min-height: 231px;
+    
+}
+.showcasefooter{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.boxes{
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    top: 614px;
+    position: absolute;
+    left: 169px;
+}
+.leftbox{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 143px;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 7% 0% 0% 0%;
+    background-color: white;
+    padding: 31px;
+    border-bottom: 4px solid lightgreen;
+    background: url('img/icons1.png') no-repeat 30px -70px;
+    background-color: white;
+    background-size: cover;
+
+}
+.leftbox h4{
+	font-size: 27px;
+}
+.leftbox p{
+	font-size: 13px;
+    margin-top: 11px;
+}
+.midbox{
+	display: flex;
+	min-height: 143px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 33px;
+    border: 2px solid white;
+    border-radius: 7%;
+    background-color: white;
+}
+.midbox p{
+	font-size: 13px;
+    margin-top: 11px;
+}
+.midbox h2{
+	font-size: 36px;
+}
+.btn1{
+	position: absolute;
+    bottom: -15px;
+    padding: 11px 21px;
+    font-weight: bold;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    background-color: #4fd77f;
+}
+.rightbox{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 143px;
+    justify-content: center;
+    padding: 49px 88px 4px 85px;
+    border: 2px solid white;
+    background-color: white;
+    border-bottom: 4px solid lightgreen;
+    border-radius: 0% 7% 0% 0%;
+    background: url('img/icons2.png')no-repeat 20px -46px;
+    background-color: white;
+    background-size: 290px;
+}
+.rightbox h4{
+	font-size: 27px;
+}
+.rightbox p{
+	font-size: 13px;
+    margin-top: 11px;
+}
+.firsticon{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    margin-left: 45px;
+}
+.firsticon p{
+	font-size: 16px;
+	margin-top: 11px;
+}
+.firsticon h3{
+	margin-top: 31px;
+}
+
+.secondicon{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    margin-right: 45px;
+}
+.secondicon p{
+	font-size: 16px;
+	margin-top: 11px;
+}
+.secondicon h3{
+	 margin-top: 31px;
+}
+.centericon{
+	color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+    padding: 30px 74px;
+    background-color: #ffffff;
+}
+.centericon h3{
+	margin-top: 31px;
+}
+.centericon p{
+	font-size: 16px;
+	margin-top: 11px;
+}
+.centericon a{
+	color: green;
+	text-decoration: underline;
+	font-size: 18px;
+}
+.check{
+	text-align: center;
+    margin-top: 179px;
+    color: black;
+}
+#article{
+	background-color: #f7f8f9;
+	color: #8fa3aa;
+	display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 95px;
+}
+.art .alights{
+	font-size: 12px;
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+.leftfoot{
+    min-height: 587px;
+    width: 1083px;
+    background: url('img/semifootericon1.png');
+}
+.text{
+    text-align: center;
+    font-size: 74px;
+    margin-top: 260px;
+    position: relative;
+}
+.rightfoot{
+    min-height: 588px;
+    width: 1282px;
+    background-color: #78dc5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightfootchild{
+    min-height: 588px;
+    display: flex;
+    align-items: center;
+    background: url('img/icons3.png') no-repeat;
+    background-size: cover;
+    width: 733px;
+    justify-content: center;
+}
+.rightfoot h1{
+    font-size: 64px;
+}
+.rightfoot p{
+    font-size: 17px;
+}
+#semi-foot{
+    position: relative;
+    display: flex;
+}
+.overlay{
+    min-height: 587px;
+    width: 617px;
+    background: rgb(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+}
+.details{
+    margin-top: 26px;
+    padding: 10px 23px;
+    border: 1px solid white;
+    border-radius: 181px;
+    font-size: 10px;
+    color: #ffffff;
+    background: rgb(0,0,0,0.1);
+}
+footer{
+    color: black;
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+footer > *{
+    flex: 1;
+}
+.logo{
+    display: flex;
+}
+.footphone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footicons{
+    display: flex;
+    justify-content: space-around;
+}
+#ending{
+    text-align: center;
+    padding: 48px;
+    background-color: #ffffff;
+}
+
