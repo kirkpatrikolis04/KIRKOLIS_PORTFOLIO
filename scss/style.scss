@@ -8,6 +8,10 @@
 
 }
 
+a {
+	color: #fff !important;
+}
+
 body {
 	font-size: 16px;
 	font-family: $font-stack;
@@ -17,117 +21,33 @@ body {
 }
 
 
-
-		nav.scrolling-navbar {
-			background-color: white;
-			min-height: 10vh;
-			box-shadow: $shadow;
-			position: fixed;
-			top: -10vh;
-			left: 0;
-			width: 100%;
-			z-index: 2;
-			transition: 0.3s ease-in;
-			color: $primary-color;
-			
-
+		.navbar {
+			background-color: $primary-color !important;
 
 			.navbar-brand {
-				font-weight: 800;
-				font-size: 23px;
-				color: $primary-color;
+				font-size: 1.5rem;
+				font-weight: bold;
 			}
 
-			.navbar-nav {
-				width: 40%;
-				margin-right: 80px;
-				font-weight: 600;
-			}
-
-			.nav-link {
-				color: $primary-color;
-			}
-
-			.social-media i {
-				font-size: 16px;
-				color: #333;
-				color: $primary-color;
-			}
-
-
-		}
-
-
-		nav {
-			background-color: $primary-color;
-			min-height: 10vh;
-			box-shadow: $shadow;
-
-
-			.navbar-brand {
-				font-weight: 800;
-				font-size: 23px;
-			}
-
-			.navbar-nav {
-				width: 40%;
-				margin-right: 80px;
-				font-weight: 600;
-			}
-
-			.social-media i {
-				font-size: 16px;
+			.social-media {
+				font-size: 18px;
 				color: #fff;
-			}
+				transition: 0.5 ease;
 
-
-		}
-
-
-		.mobile-nav {
-			display: none;
-		}
-
-		.sidenav {
-			position: fixed;
-			z-index: 2;
-			width: 0;
-			height: 100vh;
-			background: rgb(0,0,0,0.8);
-			top: 0;
-			left: 0;
-			transition: 0.5s;
-			overflow-x: hidden;
-			display: none;
-
-			.close {
-				text-align: right;
-				margin-right: 25px;
-				margin-bottom: 10px;
-				margin-top: -10px;
-
-				span {
-					font-size: 3rem;
-					color: #fff;
+				i:hover {
+					color: $secondary-color;
 				}
-			}
-
-			ul {
-				letter-spacing: 4px;
 			}
 		}
 
 
 		#showcase-home {
-			height: 90vh;
-			background-color: $secondary-color;
-			background: url('../images/home.png') no-repeat;
-			background-size: cover;
-			background-attachment: fixed;
-			position: relative;
+			height: 100vh;
+			background-color: $primary-color;
 
 			.mobile-image {
-
+				width: 15px;
+				height: 150px;
 				display: none;
 
 			}
@@ -144,19 +64,20 @@ body {
 				.col-lg-6 {
 					.introduction {
 						font-weight: 800;
-						font-size: 2.7rem;
+						font-size: 3.5rem;
 						overflow-y: hidden;
 					}
 				}
+
 			}
 
 		}
 
 		#showcase-about {
-			height: 100vh;
+			height: auto;
 			background-color: #fff;
 			position:relative;
-			z-index: 1;
+			z-index: 3;
 			color: $primary-color;
 
 			h1 {
@@ -171,18 +92,18 @@ body {
 				p {
 					line-height: 2em;
 					letter-spacing: 0.2em;
+					transform: translateX(17%);
 				}
 
 				.about-picture {
 
-					div {
-					    width: 95%;
-					    height: 100%;
-					    border: 5px solid $primary-color;
-					    background: url('../images/about-picture.png') no-repeat;
-					    background-size: cover;
-					    // background-position: center;
+					img {
+						width: 75%;
+						height: 80%;
+						border-radius: 50%;
+						transform: translate(-10%, -20%);
 					}
+
 				}
 			}
 		}
@@ -245,7 +166,7 @@ body {
 						&.active {
 
 						font-weight: bold;
-						color: red;
+						color: $primary-color;
 
 						}
 
@@ -305,7 +226,7 @@ body {
 				height: 281px;
 			    margin-top: 60px;
 			    border: 2px solid #d4102e;
-			    margin-left: 100px;
+			    margin-left: 26%;
 			}
 
 
@@ -365,7 +286,7 @@ body {
 			width: 100%;
 			height: 100vh;
 			position: fixed;
-			z-index: 10;
+			z-index: 20000;
 			top: 0;
 			left: 0;
 			background-color: #fff;

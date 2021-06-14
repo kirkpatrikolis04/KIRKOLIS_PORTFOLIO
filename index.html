@@ -11,51 +11,18 @@
 </head>
 <body>
 
-<!-- <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0"> -->
 
 	
 
-				<nav class="navbar scrolling-navbar">
-				  <div class="container-fluid">
-				    <a class="navbar-brand"><i class="fas fa-graduation-cap"></i>My Portfolio</a>
-
-				  	<ul class="nav nav-pills  flex-row justify-content-evenly">
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#home">Home</a>
-			  	        </li>
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#showcase-about">About</a>
-			  	        </li>
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#showcase-skills">Skills</a>
-			  	        </li>
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#showcase-work">Work</a>
-			  	        </li>
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#showcase-education">Education</a>
-			  	        </li>
-			  	        <li class="nav-item">
-			  	          <a class="nav-link" href="#showcase-contact">Contact</a>
-			  	        </li>
-				  	 </ul>
-
-				  	<div class="social-media">
-				  		<a href="https://web.facebook.com/kirk.olis/" target="_blank"><i class=" me-3 fab fa-facebook-f"></i></a>
-				  		<a href="https://github.com/kirkpatrikolis04" target="_blank"><i class=" me-3 fab fa-github"></i></a>
-				  		<a href="mailto:oliskirkpatrik@gmail.com"><i class="  fab fa-google"></i></a>
-				  	</div>
-				  </div>
-				</nav>
-
-
-
-			<nav class="navbar" id="home">
-			  <div class="container-fluid">
+			<nav class="navbar fixed-top fixed-sm-top navbar-expand-lg navbar-dark bg-dark">
+			  <div class="container">
 			    <a class="navbar-brand text-light"><i class="fas fa-graduation-cap"></i>My Portfolio</a>
-
-			  	<ul class="nav nav-pills flex-row justify-content-evenly">
-		  	        <li class="nav-item">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
+			         <li class="nav-item">
 		  	          <a class="nav-link text-light" href="#home"> Home</a>
 		  	        </li>
 		  	        <li class="nav-item">
@@ -68,109 +35,67 @@
 		  	          <a class="nav-link text-light" href="#showcase-work">Work</a>
 		  	        </li>
 		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-education">Education</a>
+		  	          <a class="nav-link text-light toggle-education" href="#showcase-education">Education</a>
+		  	        </li>
+		  	        <li class="nav-item">
+		  	          <a class="nav-link text-light d-none toggle-education-mobile" href="#showcase-education-mobile">Education</a>
 		  	        </li>
 		  	        <li class="nav-item">
 		  	          <a class="nav-link text-light" href="#showcase-contact">Contact</a>
 		  	        </li>
-			  	 </ul>
+			      </ul>
 
-			  	<div class="social-media">
-			  		<a href="https://web.facebook.com/kirk.olis/" target="_blank"><i class=" me-3 fab fa-facebook-f"></i></a>
-			  		<a href="https://github.com/kirkpatrikolis04" target="_blank"><i class=" me-3 fab fa-github"></i></a>
-			  		<a href="mailto:oliskirkpatrik@gmail.com"><i class="  fab fa-google"></i></a>
-			  	</div>
+			      <div class="social-media ms-lg-auto">
+			      	<a href="https://web.facebook.com/kirk.olis/" target="_blank"><i class=" me-3 fab fa-facebook-f"></i></a>
+			      	<a href="https://github.com/kirkpatrikolis04" target="_blank"><i class=" me-3 fab fa-github"></i></a>
+			      	<a href="mailto:oliskirkpatrik@gmail.com"><i class="  fab fa-google"></i></a>
+			      </div>
+			    </div>
 			  </div>
 			</nav>
 
-			<div class="mobile-nav">
-				<div class="hamburger">
-					<div class="line"></div>
-					<div class="line"></div>
-					<div class="line"></div>
-				</div>
-
-				<div class="social-media">
-					<a href="https://web.facebook.com/kirk.olis/" target="_blank"><i class=" me-3 fab fa-facebook-f"></i></a>
-					<a href="https://github.com/kirkpatrikolis04" target="_blank"><i class=" me-3 fab fa-github"></i></a>
-					<a href="mailto:oliskirkpatrik@gmail.com"><i class="  fab fa-google"></i></a>
-				</div>
-
-			</div>
-
-			<div class="sidenav">
-
-				<div class="close">
-					<span>&times;</span>
-				</div>
-				
-				<ul class="nav nav-pills flex-column justify-content-evenly ">
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-home"> Home</a>
-		  	        </li>
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-about">About</a>
-		  	        </li>
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-skills">Skills</a>
-		  	        </li>
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-work">Work</a>
-		  	        </li>
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-education-mobile">Education</a>
-		  	        </li>
-		  	        <li class="nav-item">
-		  	          <a class="nav-link text-light" href="#showcase-contact">Contact</a>
-		  	        </li>
-			  	 </ul>
-
-			</div>
 
 
 
-			<section id="showcase-home" class="text-light">
+			<section id="showcase-home" class="text-light pt-5">
 				<div class="container">
 
 					<div class="mobile-image">
-						<img src="images/about-picture.png">
+						<img src="images/gradpic.png">
 					</div>
 
 					<div class="row">
-						<div class="col-lg-6 col-sm-12  pt-5 intro">
-							<h1 class="introduction pt-5">Hi, <br> 
+						<div class="col-lg-6 col-sm-12 pt-5 intro">
+							<h1 class="introduction pt-5 mb-3">Hi, <br> 
 								I'm Kirk Patrik Olis <br>
 								a Self Taught Developer...
 							</h1>
 							<a href="#showcase-contact" class="btn-custom1 text-light">Hire me</a>
 						</div>
-						<div class="col-lg-6 col-sm-12">
-							<img src="images/home-picture.png" style="width: 100%;" class="home-picture">
+						<div class="col-lg-6 col-sm-0 col-sm-12">
+							<img src="images/home-picture.png" style="width: 100%; margin-top: 5%;" class="home-picture">
 						</div>
-					</div>
-					
+					</div>				
 
 				</div>
 			</section>
 
 		
 
-			<section id="showcase-about" class="p-5">
+			<section id="showcase-about" class="px-5 pt-5">
 
 				<div class="container">
 
-				<h1 class="text-center pt-5 mt-4" data-aos="fade-up">Want To Know More About Me???</h1>
+				<h1 class="text-center pt-5 mt-4" data-aos="fade-down">Want To Know More About Me?</h1>
 
 				<div class="row">
-					<div class="col-lg-6 col-sm-12 p-5 d-flex align-items-center justify-content-center">
+					<div class="col-lg-6 col-sm-12 p-5 d-flex  justify-content-center">
 						<p data-aos="zoom-in">
 							I just graduated in Cebu Eastern College taken up Bachelor of Science in Information Technology. I am a self taught developer willing to learn more about programming. Since its my passion I enjoy making different kinds of website either static or dynamic sites. I have no experience in real world job as a developer but I manage to learn on my own to achieve my goals.
 						</p>
 					</div>
-					<div class="col-lg-6 p-5 about-picture">
-						<div data-aos="fade-left">
-							
-						</div>
+					<div class="col-lg-6 p-5 d-flex justify-content-center align-items-center about-picture">
+						<img src="images/gradpic.png">
 					</div>
 				</div>
 
@@ -247,7 +172,7 @@
 
 				<h1 class="text-center pt-5 mt-4" data-aos="zoom-in">MY WORK</h1>
 
-				<p class="text-center mb-2" data-aos="zoom-in">This is what I have been doing for the past few years up until now!</p>
+				<p class="text-center mb-2" data-aos="zoom-in">This is what I have been doing for the couple of years up until now!</p>
 
 				<div class="row text-center">
 				
@@ -351,7 +276,7 @@
 				      		<div class="col-md-6">
 				      			<img src="images/elementary.jpg">
 				      		</div>
-				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 10%; font-weight: bold;">
+				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 13%; font-weight: bold;">
 				      			<h5><i class="fas fa-school"></i> Hipodromo Elementary School</h5>
 				      			<h5><i class="fas fa-user-graduate"></i> GRADUATED - ELEMENTARY</h5>
 				      			<h5><i class="far fa-calendar-alt"></i> 2009 - 2010</h5>
@@ -374,7 +299,7 @@
 				      		<div class="col-md-6">
 				      			<img src="images/secondary.jpg">
 				      		</div>
-				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 10%; font-weight: bold;">
+				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 13%; font-weight: bold;">
 				      			<h5> <i class="fas fa-school"></i> Hipodromo Elementary School</h5>
 				      			<h5><i class="fas fa-user-graduate"></i> GRADUATED - ALS</h5>
 				      			<h5><i class="far fa-calendar-alt"></i> 2015 - 2016</h5>
@@ -397,7 +322,7 @@
 				      		<div class="col-md-6">
 				      			<img src="images/tertiary.jpg">
 				      		</div>
-				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 10%; font-weight: bold;">
+				      		<div class="col-md-6 text-start" style="margin-top: 60px; padding-left: 13%; font-weight: bold;">
 				      			<h5><i class="fas fa-school"></i> Cebu Eastern College</h5>
 				      			<h5><i class="fas fa-user-graduate"></i> GRADUATED - COLLEGE</h5>
 				      			<h5><i class="far fa-calendar-alt"></i> 2020 - 2021</h5>

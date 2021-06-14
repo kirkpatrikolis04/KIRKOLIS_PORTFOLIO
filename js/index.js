@@ -37,22 +37,11 @@ window.addEventListener('scroll', function(e){
 });
 
 	
-	document.querySelector('.hamburger').addEventListener('click', () => {
-
-		document.querySelector('.sidenav').style.width = '60%';
-
-	});
-
-	document.querySelector('.close').addEventListener('click', () => {
-
-		document.querySelector('.sidenav').style.width = '0';
-
-	});
 
 
 	setTimeout(function(){
 		document.querySelector('.overlay .hello').style.height = '100vh';
-		document.querySelector('.overlay .hello').style.width = '100%';
+		document.querySelector('.overlay .hello').style.width = '100vw';
 		document.querySelector('.overlay .hello').style.transition = '0.5s';
 	}, 800);
 
